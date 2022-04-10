@@ -24,6 +24,17 @@ The slope of the multiple linear model is not zero because there are variables t
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 This linear model can predict mpg somewhat. It has a linear relationship with only two variables so it would seem there are more variables that should be considered.  
 
+## Summary Statistics on Suspension Coils
+
+![0A2B8C2E-09DE-4A83-B6DF-92F47D1021FE_4_5005_c](https://user-images.githubusercontent.com/96222437/162601118-9d9c8dbd-fb15-4e87-ae38-47e58aa5d67d.jpeg)
+
+
+![E2343CF5-294E-4733-99E8-E50644823BFA_4_5005_c](https://user-images.githubusercontent.com/96222437/162601121-1cd65140-925b-4f72-8599-bab6139580ab.jpeg)
+
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
 
 ## Summary
 
