@@ -17,3 +17,16 @@ total_summary <- mecha_table2 %>% summarize(Mean=mean(PSI),Median=median(PSI),Va
 lot_summary <- mecha_table2 %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI), sd(PSI)) #create summary table by lot
 
 
+#Deliverable 3
+
+
+t.test((mecha_table2$PSI), mu=1500) #ttest for all lots
+
+t.test(subset(mecha_table2, Manufacturing_Lot == "Lot1")$PSI, mu=1500)#ttest for each lot
+t.test(subset(mecha_table2, Manufacturing_Lot == "Lot2")$PSI, mu=1500)
+t.test(subset(mecha_table2, Manufacturing_Lot == "Lot3")$PSI, mu=1500)
+
+
+
+
+
