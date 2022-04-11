@@ -72,16 +72,34 @@ The below screen shot of Lot 3 statistical results shows an ideal p-value of 4%.
 ## Study Design: MechaCar vs Competition
 
 What metric or metrics are you going to test?
+
+In our current economy and with our inflation as it is today, I would create a study that compares the MechaCar's performance against other competitors with fuel efficiency as the critical factor.  I'd utiilize the metrics listed below to determine whether MechaCar has a better performing vehicle with regard to mies per gallon or if there is no difference. 
+
 What is the null hypothesis or alternative hypothesis?
+
+*Null Hypothesis*: The average miles per gallon of MechaCar vehicles is better performing than its competitors' vehicles.
+
+*Alternative Hypothesis*: The average miles per gallon of MechaCar vehicles is no different than its competitors' vehicles.
+
+
 What statistical test would you use to test the hypothesis? And why?
+
+The multiple variable linear regression model would be a great indicator for illustrating the variables that effect mpg. The variables in my case study would include weight of the vehicle, horsepower of the vehicle, and engine size.  These variables would be added into the linear regression model so that non random variables could be identified.  
+Another statistical test that would be important to process is the t-test so that the samples can be compared between the MechaCar and the other competitors.  The t-test would produce a t-value and a p-value to validate the results(or show the data is by chance) and accept/reject the null hypothesis. 
+
 What data is needed to run the statistical test?
 
+The data would be a subset of weights, horsepower, and engine size from the vehicles MechaCar manufactures and of the other competitors vehicles.
 
-In our current economy and with our inflation as it is today, I would create a study that compares the MechaCar's performance against other competitors with fuel efficiency as the critical factor.  I'd utiilize the metrics listed below to determine which company has the best vehicle with regard to miles per gallon(mpg).  
-The multiple variable linear regression model would be a great indicator for illustrating the variables that effect mpg. The variables in my case study would include weight of the vehicle, horsepower of the vehicle, and engine size.  These variables would be added into the linear regression model so that non random variables could be identified.  
-Null Hypothesis: 
-Alternative Hypothesis: 
 
-The data would be a subset of weights, horsepower, and engine size from all of the vehicles MechaCar and the other competitors manufactor. 
+
+
+
+
+
+
+
+
+
 
 
