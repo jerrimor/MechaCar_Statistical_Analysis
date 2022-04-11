@@ -54,13 +54,13 @@ The below t-test results are for Lot 1 and indicate that this manufactoring plan
 ![58493C0C-960E-4809-BE54-2714B80A9B16_4_5005_c](https://user-images.githubusercontent.com/96222437/162645737-3b99c0a9-3bf8-4f0c-9f22-b36c35218e44.jpeg)
 
 Lot 2 t-test
-The below t-test results are for Lot 2.  The numbers of, t-test of 0.52 is an optimal result.  This allows us to reject the null hypothesis, that the manufacturing lot does not meet the requirement of 1500.  The mean of x is 1500 exactly and the confidence level of 95% shows this data to be reliable. 
+The below t-test results are for Lot 2.  A p-value of 60% would lead us to believe that there are other effects that may not be seen here and need to be considered.  This high p-value means the data and results could be by chance.  The mean is a good sign, as it matches the limit of 1500 exactly but there is uncertainty with a large p-value within the statistics for this Lot. 
 
 ![51229F86-3721-4444-93B7-06E524CCEE10_4_5005_c](https://user-images.githubusercontent.com/96222437/162645762-dfb7117f-dbec-48cc-b0aa-612ef46190e2.jpeg)
 
 
 Lot 3 t-test
-The below screen shot of Lot 3 statistical results shows a very large p-value.  A p-value of 60% would lead us to believe that there are other effects that may not be seen here and need to be considered.  This high p-value means the data and results could be by chance.  The mean is a good sign, as it matches the limit of 1500 exactly but there is uncertainty with a large p-value within the statistics for this Lot. 
+The below screen shot of Lot 3 statistical results shows an ideal p-value of 4%.  The numbers of, t-test of -2.1 is just inside an acceptable level for the t-value, as it is best to receive a t-value between 2 and -2. The mean of x is 1500 exactly and the confidence level of 95% shows this data to be reliable. 
 
 ![A6C50B60-862F-4F74-A83F-EF8C4F7C6E7B_4_5005_c](https://user-images.githubusercontent.com/96222437/162645753-fceb1807-84e5-41e9-b01e-6dcb67c299d9.jpeg)
 
