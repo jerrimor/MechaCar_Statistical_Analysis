@@ -43,23 +43,27 @@ However, it is evident in the below image that not all lots meet the requirement
 ## T-tests on Suspension Coils
 Summary of interpretation for the t-test results. 
 
-Summary t-test
+*Summary* t-test
+
 The below summary t-test displays the t-value, p-value for the lots as a whole.  The t-value of -1.89 is a small number which indicates that the lots are similiar in production of coils.  A p-value of 6% indicates that the results of consistently meeting the requirement of 1500 PSI is reliable and not by chance.  The ideal p-value is 5%.
 
 ![B2F8B094-525E-4605-80AF-D4CE2C373772_4_5005_c](https://user-images.githubusercontent.com/96222437/162645778-ec1a1d3d-e382-493e-8405-b81327e2450e.jpeg)
 
-Lot 1 t-test
+*Lot 1* t-test
+
 The below t-test results are for Lot 1 and indicate that this manufactoring plant has an ideal process.  The t-test is zero and that signifies that there are no effects that exist in the population.  The data meets the mean of 1500 exactly.  The process at this plant is repeatable and accurate. 
 
 ![58493C0C-960E-4809-BE54-2714B80A9B16_4_5005_c](https://user-images.githubusercontent.com/96222437/162645737-3b99c0a9-3bf8-4f0c-9f22-b36c35218e44.jpeg)
 
-Lot 2 t-test
+*Lot 2* t-test
+
 The below t-test results are for Lot 2.  A p-value of 60% would lead us to believe that there are other effects that may not be seen here and need to be considered.  This high p-value means the data and results could be by chance.  The mean is a good sign, as it matches the limit of 1500 exactly but there is uncertainty with a large p-value within the statistics for this Lot. 
 
 ![51229F86-3721-4444-93B7-06E524CCEE10_4_5005_c](https://user-images.githubusercontent.com/96222437/162645762-dfb7117f-dbec-48cc-b0aa-612ef46190e2.jpeg)
 
 
-Lot 3 t-test
+*Lot 3* t-test
+
 The below screen shot of Lot 3 statistical results shows an ideal p-value of 4%.  The numbers of, t-test of -2.1 is just inside an acceptable level for the t-value, as it is best to receive a t-value between 2 and -2. The mean of x is 1500 exactly and the confidence level of 95% shows this data to be reliable. 
 
 ![A6C50B60-862F-4F74-A83F-EF8C4F7C6E7B_4_5005_c](https://user-images.githubusercontent.com/96222437/162645753-fceb1807-84e5-41e9-b01e-6dcb67c299d9.jpeg)
@@ -72,5 +76,12 @@ What is the null hypothesis or alternative hypothesis?
 What statistical test would you use to test the hypothesis? And why?
 What data is needed to run the statistical test?
 
+
+In our current economy and with our inflation as it is today, I would create a study that compares the MechaCar's performance against other competitors with fuel efficiency as the critical factor.  I'd utiilize the metrics listed below to determine which company has the best vehicle with regard to miles per gallon(mpg).  
+The multiple variable linear regression model would be a great indicator for illustrating the variables that effect mpg. The variables in my case study would include weight of the vehicle, horsepower of the vehicle, and engine size.  These variables would be added into the linear regression model so that non random variables could be identified.  
+Null Hypothesis: 
+Alternative Hypothesis: 
+
+The data would be a subset of weights, horsepower, and engine size from all of the vehicles MechaCar and the other competitors manufactor. 
 
 
